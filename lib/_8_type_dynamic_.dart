@@ -4,8 +4,11 @@ void main() {
   a = "doing now";
   a = 1;
 // ----------------------
-  dynamic b = 11;
-  b = "";
+  /*  区别
+  dynamic b ;
+  Object c;
+  print(b.foo());
+  print(c.foo());*/
 // ----------------------
   var list = List<dynamic>(); // 动态类型
   list.add(1);
