@@ -24,6 +24,7 @@ printUser(String name, {int age, String gender}) {
   print('姓名：$name,年龄：$age, 性别：$gender');
 }
 
+// 固定位置【】
 printUser2(String name, [int age, String gender]) {
   print('姓名：$name,年龄：$age, 性别：$gender');
 }

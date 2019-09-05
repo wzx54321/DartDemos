@@ -49,7 +49,7 @@ main() {
 
   print(name == '长得帅' ? '好人' : '坏人');
 
-
+// ??左边变量为null,使用右边的值;不为空使用左边的值
   String haha;
   print(haha??"520");
 

@@ -39,6 +39,7 @@ goodGame()=> 'gg!';
 
 haveFun()=> 'hf!';
 
+// 方法是Function对象
 fun0(){
 
 }
