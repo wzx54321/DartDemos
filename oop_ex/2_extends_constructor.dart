@@ -1,5 +1,6 @@
+part of 'oop_ex.dart';
 main() {
-  Student student = Student();
+  Student student =new  Student();
 }
 
 // ----------------
@@ -11,7 +12,12 @@ class P {
   }
 }
 
-class Student extends P {}
+class Student extends P {
+
+  student(){
+    print("Student constructor");
+  }
+}
 
 //-----------------------
 

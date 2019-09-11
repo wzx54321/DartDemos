@@ -1,3 +1,5 @@
+library obj;
+
 class Student {
   String name;
 
@@ -64,6 +66,12 @@ class Page {
     currentPage++;
     print("scrollUp");
   }
+
+  @override
+  noSuchMethod(Invocation invocation) {
+    // TODO: implement noSuchMethod
+    return super.noSuchMethod(invocation);
+  }
 }
 
 
@@ -72,5 +80,7 @@ void main(){
   Page page=Page();
   //page.scrollDown();
   Page.scrollDown();
+
+
 
 }

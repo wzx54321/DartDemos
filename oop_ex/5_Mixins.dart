@@ -61,6 +61,7 @@ class E extends Person{
 // 必须使用 extends...with
 //  如果类里面有相同的方法，A B C 顺序，影响了最终方法的调用，最后一个生效
 // 不可以使用E,E的直接父类不是Object
+// 不能有显示的构造方法。
 class F extends A with B, C/*,E*/ {}
 
 void main() {
