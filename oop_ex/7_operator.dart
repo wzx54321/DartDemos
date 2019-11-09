@@ -40,4 +40,7 @@ void main() {
   person2.age = 101;
 
   print(person > person2);
+
+
+  print(person.runtimeType);
 }
